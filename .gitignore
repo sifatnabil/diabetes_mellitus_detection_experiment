@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+notebooks/test_notebook.ipynb
+superset/redis
+superset/db_home
