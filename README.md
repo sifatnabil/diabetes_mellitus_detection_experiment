@@ -22,3 +22,7 @@ server: localhost:8088
 username: admin
 password: admin
 ```
+
+## Descriptive Analysis
+
+![Descriptive Analysis](Images/diabetes-mellitus-detection-descriptive-analysis.jpg "Descriptive Analysis on Diabetes Mellitus Dataset")
