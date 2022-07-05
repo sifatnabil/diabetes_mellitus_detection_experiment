@@ -2,3 +2,5 @@
 notebooks/test_notebook.ipynb
 superset/redis
 superset/db_home
+*.zip
+*.rar
