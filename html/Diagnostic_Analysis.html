@@ -14572,56 +14572,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs   celltag_remove_input">
 
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Colab link: <a href="https://drive.google.com/file/d/1J4pdULGFF3UuMACHzKO71i1LRfFs7Hhl/view?usp=sharing">https://drive.google.com/file/d/1J4pdULGFF3UuMACHzKO71i1LRfFs7Hhl/view?usp=sharing</a></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-
-<span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../Modified Datasets/data_missing_clean.csv&#39;</span><span class="p">)</span>
-<span class="n">train_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -14633,7 +14586,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
@@ -14812,22 +14765,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;Unnamed: 0.1&quot;</span><span class="p">,</span> <span class="s2">&quot;Unnamed: 0&quot;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="s2">&quot;columns&quot;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">train_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -14839,7 +14777,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 
 
 
@@ -15018,20 +14956,220 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_df</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Dataset-Description">Dataset Description<a class="anchor-link" href="#Dataset-Description">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
-     </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>encounter_id : Unique identifier associated with a patient unit stay
+hospital_id : Unique identifier associated with a hospital
+age : The age of the patient on unit admission
+bmi : The body mass index of the person on unit admission
+elective_surgery : Whether the patient was admitted to the hospital for an elective surgical operation
+ethnicity : The common national or cultural tradition which the person belongs to
+gender : The genotypical sex of the patient
+height : The height of the person on unit admission
+hospital_admit_source : The location of the patient prior to being admitted to the hospital
+icu_admit_source : The location of the patient prior to being admitted to the unit
+icu_admit_type : The type of unit admission for the patient
+icu_id : A unique identifier for the unit to which the patient was admitted
+icu_stay_type : nan
+icu_type : A classification which indicates the type of care the unit is capable of providing
+pre_icu_los_days : The length of stay of the patient between hospital admission and unit admission
+readmission_status : Whether the current unit stay is the second (or greater) stay at an ICU within the same hospitalization
+weight : The weight (body mass) of the person on unit admission
+albumin_apache : The albumin concentration measured during the first 24 hours which results in the highest APACHE III score
+apache_2_diagnosis : The APACHE II diagnosis for the ICU admission
+apache_3j_diagnosis : The APACHE III-J sub-diagnosis code which best describes the reason for the ICU admission
+apache_post_operative : The APACHE operative status; 1 for post-operative, 0 for non-operative
+arf_apache : Whether the patient had acute renal failure during the first 24 hours of their unit stay, defined as a 24 hour urine output &lt;410ml, creatinine &gt;=133 micromol/L and no chronic dialysis
+bilirubin_apache : The bilirubin concentration measured during the first 24 hours which results in the highest APACHE III score
+bun_apache : The blood urea nitrogen concentration measured during the first 24 hours which results in the highest APACHE III score
+creatinine_apache : The creatinine concentration measured during the first 24 hours which results in the highest APACHE III score
+fio2_apache : The fraction of inspired oxygen from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation
+gcs_eyes_apache : The eye opening component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score
+gcs_motor_apache : The motor component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score
+gcs_unable_apache : Whether the Glasgow Coma Scale was unable to be assessed due to patient sedation
+gcs_verbal_apache : The verbal component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score
+glucose_apache : The glucose concentration measured during the first 24 hours which results in the highest APACHE III score
+heart_rate_apache : The heart rate measured during the first 24 hours which results in the highest APACHE III score
+hematocrit_apache : The hematocrit measured during the first 24 hours which results in the highest APACHE III score
+intubated_apache : Whether the patient was intubated at the time of the highest scoring arterial blood gas used in the oxygenation score
+map_apache : The mean arterial pressure measured during the first 24 hours which results in the highest APACHE III score
+paco2_apache : The partial pressure of carbon dioxide from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation
+paco2_for_ph_apache : The partial pressure of carbon dioxide from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for acid-base disturbance
+pao2_apache : The partial pressure of oxygen from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation
+ph_apache : The pH from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for acid-base disturbance
+resprate_apache : The respiratory rate measured during the first 24 hours which results in the highest APACHE III score
+sodium_apache : The sodium concentration measured during the first 24 hours which results in the highest APACHE III score
+temp_apache : The temperature measured during the first 24 hours which results in the highest APACHE III score
+urineoutput_apache : The total urine output for the first 24 hours
+ventilated_apache : Whether the patient was invasively ventilated at the time of the highest scoring arterial blood gas using the oxygenation scoring algorithm, including any mode of positive pressure ventilation delivered through a circuit attached to an endo-tracheal tube or tracheostomy
+wbc_apache : The white blood cell count measured during the first 24 hours which results in the highest APACHE III score
+d1_diasbp_invasive_max : The patient&#39;s highest diastolic blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_diasbp_invasive_min : The patient&#39;s lowest diastolic blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_diasbp_max : The patient&#39;s highest diastolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_diasbp_min : The patient&#39;s lowest diastolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_diasbp_noninvasive_max : The patient&#39;s highest diastolic blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_diasbp_noninvasive_min : The patient&#39;s lowest diastolic blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_heartrate_max : The patient&#39;s highest heart rate during the first 24 hours of their unit stay
+d1_heartrate_min : The patient&#39;s lowest heart rate during the first 24 hours of their unit stay
+d1_mbp_invasive_max : The patient&#39;s highest mean blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_mbp_invasive_min : The patient&#39;s lowest mean blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_mbp_max : The patient&#39;s highest mean blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_mbp_min : The patient&#39;s lowest mean blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_mbp_noninvasive_max : The patient&#39;s highest mean blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_mbp_noninvasive_min : The patient&#39;s lowest mean blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_resprate_max : The patient&#39;s highest respiratory rate during the first 24 hours of their unit stay
+d1_resprate_min : The patient&#39;s lowest respiratory rate during the first 24 hours of their unit stay
+d1_spo2_max : The patient&#39;s highest peripheral oxygen saturation during the first 24 hours of their unit stay
+d1_spo2_min : The patient&#39;s lowest peripheral oxygen saturation during the first 24 hours of their unit stay
+d1_sysbp_invasive_max : The patient&#39;s highest systolic blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_sysbp_invasive_min : The patient&#39;s lowest systolic blood pressure during the first 24 hours of their unit stay, invasively measured
+d1_sysbp_max : The patient&#39;s highest systolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_sysbp_min : The patient&#39;s lowest systolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured
+d1_sysbp_noninvasive_max : The patient&#39;s highest systolic blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_sysbp_noninvasive_min : The patient&#39;s lowest systolic blood pressure during the first 24 hours of their unit stay, non-invasively measured
+d1_temp_max : The patient&#39;s highest core temperature during the first 24 hours of their unit stay, invasively measured
+d1_temp_min : The patient&#39;s lowest core temperature during the first 24 hours of their unit stay
+h1_diasbp_invasive_max : The patient&#39;s highest diastolic blood pressure during the first hour of their unit stay, invasively measured
+h1_diasbp_invasive_min : The patient&#39;s lowest diastolic blood pressure during the first hour of their unit stay, invasively measured
+h1_diasbp_max : The patient&#39;s highest diastolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_diasbp_min : The patient&#39;s lowest diastolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_diasbp_noninvasive_max : The patient&#39;s highest diastolic blood pressure during the first hour of their unit stay, non-invasively measured
+h1_diasbp_noninvasive_min : The patient&#39;s lowest diastolic blood pressure during the first hour of their unit stay, non-invasively measured
+h1_heartrate_max : The patient&#39;s highest heart rate during the first hour of their unit stay
+h1_heartrate_min : The patient&#39;s lowest heart rate during the first hour of their unit stay
+h1_mbp_invasive_max : The patient&#39;s highest mean blood pressure during the first hour of their unit stay, invasively measured
+h1_mbp_invasive_min : The patient&#39;s lowest mean blood pressure during the first hour of their unit stay, invasively measured
+h1_mbp_max : The patient&#39;s highest mean blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_mbp_min : The patient&#39;s lowest mean blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_mbp_noninvasive_max : The patient&#39;s highest mean blood pressure during the first hour of their unit stay, non-invasively measured
+h1_mbp_noninvasive_min : The patient&#39;s lowest mean blood pressure during the first hour of their unit stay, non-invasively measured
+h1_resprate_max : The patient&#39;s highest respiratory rate during the first hour of their unit stay
+h1_resprate_min : The patient&#39;s lowest respiratory rate during the first hour of their unit stay
+h1_spo2_max : The patient&#39;s highest peripheral oxygen saturation during the first hour of their unit stay
+h1_spo2_min : The patient&#39;s lowest peripheral oxygen saturation during the first hour of their unit stay
+h1_sysbp_invasive_max : The patient&#39;s highest systolic blood pressure during the first hour of their unit stay, invasively measured
+h1_sysbp_invasive_min : The patient&#39;s lowest systolic blood pressure during the first hour of their unit stay, invasively measured
+h1_sysbp_max : The patient&#39;s highest systolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_sysbp_min : The patient&#39;s lowest systolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured
+h1_sysbp_noninvasive_max : The patient&#39;s highest systolic blood pressure during the first hour of their unit stay, non-invasively measured
+h1_sysbp_noninvasive_min : The patient&#39;s lowest systolic blood pressure during the first hour of their unit stay, non-invasively measured
+h1_temp_max : The patient&#39;s highest core temperature during the first hour of their unit stay, invasively measured
+h1_temp_min : The patient&#39;s lowest core temperature during the first hour of their unit stay
+d1_albumin_max : The lowest albumin concentration of the patient in their serum during the first 24 hours of their unit stay
+d1_albumin_min : The lowest albumin concentration of the patient in their serum during the first 24 hours of their unit stay
+d1_bilirubin_max : The highest bilirubin concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_bilirubin_min : The lowest bilirubin concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_bun_max : The highest blood urea nitrogen concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_bun_min : The lowest blood urea nitrogen concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_calcium_max : The highest calcium concentration of the patient in their serum during the first 24 hours of their unit stay
+d1_calcium_min : The lowest calcium concentration of the patient in their serum during the first 24 hours of their unit stay
+d1_creatinine_max : The highest creatinine concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_creatinine_min : The lowest creatinine concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_glucose_max : The highest glucose concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_glucose_min : The lowest glucose concentration of the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_hco3_max : The highest bicarbonate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_hco3_min : The lowest bicarbonate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_hemaglobin_max : The highest hemoglobin concentration for the patient during the first 24 hours of their unit stay
+d1_hemaglobin_min : The lowest hemoglobin concentration for the patient during the first 24 hours of their unit stay
+d1_hematocrit_max : The highest volume proportion of red blood cells in a patient&#39;s blood during the first 24 hours of their unit stay, expressed as a fraction
+d1_hematocrit_min : The lowest volume proportion of red blood cells in a patient&#39;s blood during the first 24 hours of their unit stay, expressed as a fraction
+d1_inr_max : The highest international normalized ratio for the patient during the first 24 hours of their unit stay
+d1_inr_min : The lowest international normalized ratio for the patient during the first 24 hours of their unit stay
+d1_lactate_max : The highest lactate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_lactate_min : The lowest lactate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_platelets_max : The highest platelet count for the patient during the first 24 hours of their unit stay
+d1_platelets_min : The lowest platelet count for the patient during the first 24 hours of their unit stay
+d1_potassium_max : The highest potassium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_potassium_min : The lowest potassium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_sodium_max : The highest sodium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_sodium_min : The lowest sodium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay
+d1_wbc_max : The highest white blood cell count for the patient during the first 24 hours of their unit stay
+d1_wbc_min : The lowest white blood cell count for the patient during the first 24 hours of their unit stay
+h1_albumin_max : The lowest albumin concentration of the patient in their serum during the first hour of their unit stay
+h1_albumin_min : The lowest albumin concentration of the patient in their serum during the first hour of their unit stay
+h1_bilirubin_max : The highest bilirubin concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_bilirubin_min : The lowest bilirubin concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_bun_max : The highest blood urea nitrogen concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_bun_min : The lowest blood urea nitrogen concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_calcium_max : The highest calcium concentration of the patient in their serum during the first hour of their unit stay
+h1_calcium_min : The lowest calcium concentration of the patient in their serum during the first hour of their unit stay
+h1_creatinine_max : The highest creatinine concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_creatinine_min : The lowest creatinine concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_glucose_max : The highest glucose concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_glucose_min : The lowest glucose concentration of the patient in their serum or plasma during the first hour of their unit stay
+h1_hco3_max : The highest bicarbonate concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_hco3_min : The lowest bicarbonate concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_hemaglobin_max : The highest hemoglobin concentration for the patient during the first hour of their unit stay
+h1_hemaglobin_min : The lowest hemoglobin concentration for the patient during the first hour of their unit stay
+h1_hematocrit_max : The highest volume proportion of red blood cells in a patient&#39;s blood during the first hour of their unit stay, expressed as a fraction
+h1_hematocrit_min : The lowest volume proportion of red blood cells in a patient&#39;s blood during the first hour of their unit stay, expressed as a fraction
+h1_inr_max : The highest international normalized ratio for the patient during the first hour of their unit stay
+h1_inr_min : The lowest international normalized ratio for the patient during the first hour of their unit stay
+h1_lactate_max : The highest lactate concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_lactate_min : The lowest lactate concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_platelets_max : The highest platelet count for the patient during the first hour of their unit stay
+h1_platelets_min : The lowest platelet count for the patient during the first hour of their unit stay
+h1_potassium_max : The highest potassium concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_potassium_min : The lowest potassium concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_sodium_max : The highest sodium concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_sodium_min : The lowest sodium concentration for the patient in their serum or plasma during the first hour of their unit stay
+h1_wbc_max : The highest white blood cell count for the patient during the first hour of their unit stay
+h1_wbc_min : The lowest white blood cell count for the patient during the first hour of their unit stay
+d1_arterial_pco2_max : The highest arterial partial pressure of carbon dioxide for the patient during the first 24 hours of their unit stay
+d1_arterial_pco2_min : The lowest arterial partial pressure of carbon dioxide for the patient during the first 24 hours of their unit stay
+d1_arterial_ph_max : The highest arterial pH for the patient during the first 24 hours of their unit stay
+d1_arterial_ph_min : The lowest arterial pH for the patient during the first 24 hours of their unit stay
+d1_arterial_po2_max : The highest arterial partial pressure of oxygen for the patient during the first 24 hours of their unit stay
+d1_arterial_po2_min : The lowest arterial partial pressure of oxygen for the patient during the first 24 hours of their unit stay
+d1_pao2fio2ratio_max : The highest fraction of inspired oxygen for the patient during the first 24 hours of their unit stay
+d1_pao2fio2ratio_min : The lowest fraction of inspired oxygen for the patient during the first 24 hours of their unit stay
+h1_arterial_pco2_max : The highest arterial partial pressure of carbon dioxide for the patient during the first hour of their unit stay
+h1_arterial_pco2_min : The lowest arterial partial pressure of carbon dioxide for the patient during the first hour of their unit stay
+h1_arterial_ph_max : The highest arterial pH for the patient during the first hour of their unit stay
+h1_arterial_ph_min : The lowest arterial pH for the patient during the first hour of their unit stay
+h1_arterial_po2_max : The highest arterial partial pressure of oxygen for the patient during the first hour of their unit stay
+h1_arterial_po2_min : The lowest arterial partial pressure of oxygen for the patient during the first hour of their unit stay
+h1_pao2fio2ratio_max : The highest fraction of inspired oxygen for the patient during the first hour of their unit stay
+h1_pao2fio2ratio_min : The lowest fraction of inspired oxygen for the patient during the first hour of their unit stay
+aids : Whether the patient has a definitive diagnosis of acquired immune deficiency syndrome (AIDS) (not HIV positive alone)
+cirrhosis : Whether the patient has a history of heavy alcohol use with portal hypertension and varices, other causes of cirrhosis with evidence of portal hypertension and varices, or biopsy proven cirrhosis. This comorbidity does not apply to patients with a functioning liver transplant.
+hepatic_failure : Whether the patient has cirrhosis and additional complications including jaundice and ascites, upper GI bleeding, hepatic encephalopathy, or coma.
+immunosuppression : Whether the patient has their immune system suppressed within six months prior to ICU admission for any of the following reasons; radiation therapy, chemotherapy, use of non-cytotoxic immunosuppressive drugs, high dose steroids (at least 0.3 mg/kg/day of methylprednisolone or equivalent for at least 6 months).
+leukemia : Whether the patient has been diagnosed with acute or chronic myelogenous leukemia, acute or chronic lymphocytic leukemia, or multiple myeloma.
+lymphoma : Whether the patient has been diagnosed with non-Hodgkin lymphoma.
+solid_tumor_with_metastasis : Whether the patient has been diagnosed with any solid tumor carcinoma (including malignant melanoma) which has evidence of metastasis.
+diabetes_mellitus : Whether the patient has been diagnosed with diabetes mellitus, a chronic disease.
+</pre>
 </div>
 </div>
+
+</div>
+
 </div>
 
 </div>
@@ -15045,26 +15183,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dm</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[[</span><span class="s1">&#39;age&#39;</span><span class="p">,</span><span class="s1">&#39;bmi&#39;</span><span class="p">,</span><span class="s1">&#39;elective_surgery&#39;</span><span class="p">,</span><span class="s1">&#39;ethnicity&#39;</span><span class="p">,</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;height&#39;</span><span class="p">,</span><span class="s1">&#39;icu_admit_source&#39;</span><span class="p">,</span><span class="s1">&#39;icu_stay_type&#39;</span><span class="p">,</span><span class="s1">&#39;icu_type&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;pre_icu_los_days&#39;</span><span class="p">,</span><span class="s1">&#39;weight&#39;</span><span class="p">,</span><span class="s1">&#39;diabetes_mellitus&#39;</span><span class="p">]]</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">dm</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span><span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;viridis&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15076,7 +15195,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -15135,28 +15254,7 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span>  <span class="nn">matplotlib.ticker</span> <span class="kn">import</span> <span class="n">PercentFormatter</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;gender&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">)</span>
-
-<span class="n">male_diabetes_percentage</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;M&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">train_df</span><span class="p">[</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;M&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">female_diabetes_percentage</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;F&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">train_df</span><span class="p">[</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;F&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Diabetes Percentage among males:&quot;</span><span class="p">,</span> <span class="n">male_diabetes_percentage</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Diabets Percentage among females:&quot;</span><span class="p">,</span> <span class="n">female_diabetes_percentage</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15212,47 +15310,6 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># train_df[&quot;bmi&quot;].min()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>14.84492591</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15264,26 +15321,7 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">obese_male_percentage</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;M&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;bmi&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">24.9</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">train_df</span><span class="p">[</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;M&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">obese_female_percentage</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;F&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;bmi&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">24.9</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">train_df</span><span class="p">[</span><span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;F&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Obesity among Male:&quot;</span><span class="p">,</span> <span class="n">obese_male_percentage</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span> <span class="s2">&quot;%&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Obesity among Female:&quot;</span><span class="p">,</span> <span class="n">obese_female_percentage</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span> <span class="s2">&quot;%&quot;</span><span class="p">)</span>
-
-<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Male&quot;</span><span class="p">,</span> <span class="s2">&quot;Female&quot;</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="n">obese_male_percentage</span><span class="p">,</span> <span class="n">obese_female_percentage</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15308,7 +15346,7 @@ Obesity among Female: 66.50373387644264 %
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15364,24 +15402,7 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">,</span>
-                <span class="n">x</span><span class="o">=</span><span class="s2">&quot;age&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;bmi&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s2">&quot;dark&quot;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">.6</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">despine</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">set_axis_labels</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">,</span> <span class="s2">&quot;weight&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15393,7 +15414,7 @@ jp-needs-light-background
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 
 
 
@@ -15448,25 +15469,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">comorbodity</span> <span class="o">=</span> <span class="n">train_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">172</span><span class="p">:</span><span class="mi">179</span><span class="p">]</span>
-<span class="n">comorbodity</span><span class="p">[</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">train_df</span><span class="o">.</span><span class="n">diabetes_mellitus</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">comorbodity</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span><span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;viridis&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15524,21 +15527,7 @@ Also, metasis solid tumors and immunosuppression are positively correlated. As t
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;cirrhosis&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15550,7 +15539,7 @@ Also, metasis solid tumors and immunosuppression are positively correlated. As t
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -15594,24 +15583,7 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;fivethirtyeight&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set_context</span><span class="p">(</span><span class="s2">&quot;paper&quot;</span><span class="p">,</span> <span class="n">font_scale</span><span class="o">=</span><span class="mf">1.2</span><span class="p">)</span>   
-<span class="n">sns</span><span class="o">.</span><span class="n">factorplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;ethnicity&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;bmi&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">,</span><span class="n">height</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span> <span class="n">aspect</span> <span class="o">=</span> <span class="mf">2.3</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15636,7 +15608,7 @@ jp-needs-light-background
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -15682,24 +15654,7 @@ class="
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ethnicities</span> <span class="o">=</span> <span class="n">train_df</span><span class="o">.</span><span class="n">ethnicity</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">ethnicity</span> <span class="ow">in</span> <span class="n">ethnicities</span><span class="p">:</span>
-    <span class="n">db_percentage</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[(</span><span class="n">train_df</span><span class="o">.</span><span class="n">ethnicity</span><span class="o">==</span><span class="n">ethnicity</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">train_df</span><span class="o">.</span><span class="n">diabetes_mellitus</span><span class="o">==</span><span class="mi">1</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">train_df</span><span class="p">[</span><span class="n">train_df</span><span class="o">.</span><span class="n">ethnicity</span><span class="o">==</span><span class="n">ethnicity</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Diabetes percentage among,&quot;</span><span class="p">,</span> <span class="n">ethnicity</span><span class="p">,</span> <span class="s2">&quot;is:&quot;</span><span class="p">,</span> <span class="n">db_percentage</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span> <span class="s2">&quot;%&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15752,23 +15707,7 @@ Diabetes percentage among, Other/Unknown is: 25.508081293006878 %
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">20</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">displot</span><span class="p">(</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;hist&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;age&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">multiple</span><span class="o">=</span><span class="s2">&quot;stack&quot;</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">();</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs   celltag_remove_input">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15782,21 +15721,7 @@ Diabetes percentage among, Other/Unknown is: 25.508081293006878 %
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># sns.displot(data = train_df, kind = &#39;hist&#39;, x = &#39;icu_id&#39;, hue = &#39;diabetes_mellitus&#39;, multiple = &#39;stack&#39;,bins=25,height = 4, aspect = 1.7)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15808,7 +15733,7 @@ Diabetes percentage among, Other/Unknown is: 25.508081293006878 %
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 
 
 
@@ -15863,25 +15788,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;fivethirtyeight&#39;</span><span class="p">)</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set_context</span><span class="p">(</span><span class="s2">&quot;paper&quot;</span><span class="p">,</span> <span class="n">font_scale</span><span class="o">=</span><span class="mf">1.1</span><span class="p">)</span>   
-<span class="n">gcbest</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;#0099ff&quot;</span><span class="p">,</span> <span class="s2">&quot;#ff4d4d&quot;</span><span class="p">]</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set_palette</span><span class="p">(</span><span class="n">gcbest</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">factorplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;icu_type&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train_df</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">,</span><span class="n">height</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span> <span class="n">aspect</span> <span class="o">=</span> <span class="mf">2.3</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -15906,7 +15813,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
@@ -15974,30 +15881,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">apache_covariates</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[[</span><span class="s1">&#39;bilirubin_apache&#39;</span><span class="p">,</span><span class="s1">&#39;bun_apache&#39;</span><span class="p">,</span><span class="s1">&#39;creatinine_apache&#39;</span><span class="p">,</span><span class="s1">&#39;fio2_apache&#39;</span><span class="p">,</span>
-<span class="s1">&#39;gcs_eyes_apache&#39;</span><span class="p">,</span><span class="s1">&#39;gcs_motor_apache&#39;</span><span class="p">,</span><span class="s1">&#39;gcs_verbal_apache&#39;</span><span class="p">,</span><span class="s1">&#39;glucose_apache&#39;</span><span class="p">,</span>
-<span class="s1">&#39;heart_rate_apache&#39;</span><span class="p">,</span><span class="s1">&#39;hematocrit_apache&#39;</span><span class="p">,</span><span class="s1">&#39;map_apache&#39;</span><span class="p">,</span><span class="s1">&#39;paco2_apache&#39;</span><span class="p">,</span>
-<span class="s1">&#39;paco2_for_ph_apache&#39;</span><span class="p">,</span><span class="s1">&#39;pao2_apache&#39;</span><span class="p">,</span><span class="s1">&#39;ph_apache&#39;</span><span class="p">,</span><span class="s1">&#39;resprate_apache&#39;</span><span class="p">,</span>
-<span class="s1">&#39;sodium_apache&#39;</span><span class="p">,</span><span class="s1">&#39;temp_apache&#39;</span><span class="p">,</span><span class="s1">&#39;wbc_apache&#39;</span><span class="p">]]</span>
-
-<span class="n">apache_covariates</span><span class="p">[</span><span class="s2">&quot;diabetes_mellitus&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">train_df</span><span class="o">.</span><span class="n">diabetes_mellitus</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">apache_covariates</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span><span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;viridis&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -16026,7 +15910,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
@@ -16083,26 +15967,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vitals</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[[</span><span class="s1">&#39;d1_diasbp_max&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_diasbp_min&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_heartrate_max&#39;</span><span class="p">,</span><span class="s1">&#39;d1_heartrate_min&#39;</span><span class="p">,</span> 
-                <span class="s1">&#39;d1_mbp_max&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_mbp_min&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_resprate_max&#39;</span><span class="p">,</span><span class="s1">&#39;d1_resprate_min&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_spo2_max&#39;</span><span class="p">,</span> 
-                <span class="s1">&#39;d1_spo2_min&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_sysbp_max&#39;</span><span class="p">,</span><span class="s1">&#39;d1_sysbp_min&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_temp_max&#39;</span><span class="p">,</span> <span class="s1">&#39;d1_temp_min&#39;</span><span class="p">,</span><span class="s1">&#39;diabetes_mellitus&#39;</span><span class="p">]]</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">vitals</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span><span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;viridis&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove_input">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -16114,7 +15979,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
